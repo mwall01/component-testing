@@ -1,0 +1,23 @@
+{
+  "name": "component-testing",
+  "version": "1.0.0",
+  "description": "## Sample Webpage URL [Test App](https://rich-text-editor.squarespace.net/?path=/story/rich-text-editor--default-usage)",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwall01/component-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwall01/component-testing/issues"
+  },
+  "homepage": "https://github.com/mwall01/component-testing#readme",
+  "devDependencies": {
+    "cypress": "^13.8.1"
+  }
+}
