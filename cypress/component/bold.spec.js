@@ -1,7 +1,4 @@
-/*
- * OWNER: #website-content-team
- * TEAM: Website Content
- */
+// TEAM: Product Test Engineering
 
 const storyBookUtils = require('../support/frameUtil');
 
@@ -11,11 +8,8 @@ const boldText = '.tiptap p strong';
 
 describe('RTE Bold', () => {
   beforeEach(() => {
-    cy.viewport(1200, 900);
-    cy.visit('?path=/story/toolbar-options--bold');
+    cy.visit('rich-text-editor--default-usage');
     storyBookUtils.renderStorybookIframe();
-    cy.wait(5000);
-    // make all of above a util (include in frame util)
   });
 
   it('bolds content', () => {
