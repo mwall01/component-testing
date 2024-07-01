@@ -30,7 +30,7 @@ npm install
 To run Cypress tests locally, simply run:
 
 ```bash
-npx cypress open
+np run cypress:open
 ```
 This will open the Cypress Test Runner, where you can select and run your Cypress tests.
 
