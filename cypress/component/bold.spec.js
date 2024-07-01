@@ -8,7 +8,7 @@ const boldText = '.tiptap p strong';
 
 describe('RTE Bold', () => {
   beforeEach(() => {
-    cy.visit('rich-text-editor--default-usage');
+    cy.visit('toolbar-options--bold');
     storyBookUtils.renderStorybookIframe();
   });
 

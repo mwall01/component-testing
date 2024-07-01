@@ -3,7 +3,7 @@
 Welcome to the Cypress Component Testing Workshop! In this workshop, you will learn how to use Cypress for testing individual components of a web application.
 
 ## Sample Webpage URL
-[Test App](https://rich-text-editor.squarespace.net/?path=/story/rich-text-editor--default-usage)
+[Test App](https://rich-text-editor.squarespace.net/?path=/docs/welcome--docs)
 
 ### Getting Started
 
@@ -58,7 +58,7 @@ const boldText = '.tiptap p strong';
 // Your test
 describe('RTE <your_option>', () => {
   beforeEach(() => {
-    cy.visit('rich-text-editor--default-usage');
+    cy.visit('toolbar-options--{option-you-are-testing}'); // e.g. toolbar-options--bold
     storyBookUtils.renderStorybookIframe();
   });
 
