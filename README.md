@@ -2,6 +2,8 @@
 
 Welcome to the Cypress Component Testing Workshop! In this workshop, you will learn how to use Cypress for testing individual components of a web application.
 
+[Slide Deck](https://docs.google.com/presentation/d/1GrtGt3NYT4sECpU0pBMtxhxybbZToR9tI6Fusy_EqQY/edit#slide=id.g35f391192_00)
+
 ## Sample Webpage URL
 [Test App](https://rich-text-editor.squarespace.net/?path=/docs/welcome--docs)
 
