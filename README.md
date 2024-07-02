@@ -50,17 +50,17 @@ Here's the Cypress test snippet to get you started:
 
 const storyBookUtils = require('../support/frameUtil');
 
-// Create variables for your selectors
-const textField = '.tiptap';
-const boldButton = '[aria-label="Bold"]';
-const boldText = '.tiptap p strong';
-
 // Your test
-describe('RTE <your_option>', () => {
+describe('RTE <your_test>', () => { // e.g. bold
   beforeEach(() => {
     cy.visit('toolbar-options--{option-you-are-testing}'); // e.g. toolbar-options--bold
     storyBookUtils.renderStorybookIframe();
   });
+
+  // Create variables for your selectors
+  const textField = '.tiptap';
+  const boldButton = '[aria-label="Bold"]';
+  const boldText = '.tiptap p strong';
 
   // Update the below to test out your own component
   it('bolds content', () => {
